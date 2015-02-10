@@ -1,0 +1,1 @@
+If either one is reached, send the group. Then find the slowest car in that group; that's the speed of that group.

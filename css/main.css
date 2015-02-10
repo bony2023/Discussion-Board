@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background-image:url(../images/background.png);
+	   font-family:Arial, sans-serif;
+	   margin: 0px;}
+	   
+.login {
+	margin-top: 50px;
+	margin-left: 350px;
+	margin-right: 350px;
+}
+
+.signup {
+	margin-left: 350px;
+	margin-right: 350px;
+	}
+	
+.pp {padding: 40px;}
+
+a {text-decoration: none;
+   color:rgba(25,144,243,1.00);}
+
+h1 {font:bold;
+	border:thin;}
+	
+.about h2 {color: #554F4F;}
+	
+header {width: 100%;
+		height: 100px;
+		background-color:#3B3A3A;
+		font-family:Papyrus}
+		
+header a {color: #FFFFFF;}
+		
+.logo {margin-left: 120px;}
+
+.ans {margin-left: 80px};
+
+.bony {/*margin-top: -400px;*/
+	   float:left;}
+
+.harsh {float:right;}
+
+header .logo {margin-left: 40px;}
+	
+.homelinks {height: 50px;
+			background-color: #3B3A3A;
+			margin-bottom: 10px}
+			
+.content {padding: 40px;
+		  text-align:center;}
+		  
+.content .trend {float:right;}
+
+.content .trend a {color:#3B3A3A;}
+
+.profile {margin-left: 100px;
+		  margin-right: 340px;
+		  margin-top: -30px;}
+		  
+.search {float: right;
+		 margin-right: 40px;
+		 margin-top: 10px;}
+		 
+.pad {padding: 40px;}
+
+footer {height: 150px;
+		background-color: #3B3A3A;
+		margin-top: 35%;}
+		
+.foot a {text-decoration: none;
+		 color: #908C8C;}
+		 
+.homelinks a {color: #908C8C;
+			   text-decoration: none;}
+			  
+textarea {width: 830px;
+		  height: 300px;}
+		  
+.mark {margin-left: 120px;}

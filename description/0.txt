@@ -1,0 +1,9 @@
+Hi, I would be very glad if someone can help me with algorithm to solve following task.
+ 
+We have a convoy of cars that are lined up in a row and must cross the bridge. Cars can´t overtake each other.
+The bridge has limited capacity, which may not be exceeded.
+Find the algorithm, which divides cars into groups so that the entire convoy cross the bridge in the shortest time.
+Another group is allowed to enter only when the entire previous group cross the bridge.
+Weight and speed of each car is known. The speed of group is determined by the slowest of car in the group.
+
+Thank you. Gennady.

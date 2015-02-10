@@ -1,0 +1,1 @@
+We don't have ready made algorithms for each problem. You could try and come up with your own.

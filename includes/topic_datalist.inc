@@ -1,0 +1,25 @@
+<datalist id="topics">
+	<option value="Arts">
+    <option value="Culture">
+    <option value="Designing">
+    <option value="Entertainment">
+    <option value="Exercise">
+    <option value="Fashion">
+    <option value="Food and health">
+    <option value="Gadgets">
+    <option value="Innovation">
+    <option value="Internet">
+    <option value="Literature">
+    <option value="Movies">
+    <option value="Music">
+    <option value="Nature">
+    <option value="Politics">
+    <option value="Productivity">
+    <option value="Programming">
+    <option value="Relationships">
+    <option value="Religion">
+    <option value="Science">
+    <option value="Social networking">
+    <option value="Sports">
+	<option value="Technology">
+</datalist>

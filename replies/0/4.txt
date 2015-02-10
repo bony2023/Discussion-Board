@@ -1,0 +1,1 @@
+Keep adding cars to the current group until you reach a threshold - be it number of cars or total weight.
