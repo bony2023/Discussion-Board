@@ -60,4 +60,7 @@
 		}
 		echo "</div>";
 	}
+	function BlockSQLInjection($str) { 
+		return str_replace(array("'","\"","'",'"'), array("&#39;","&quot;","&#39;","&quot;"), $str); 
+	}
 ?>

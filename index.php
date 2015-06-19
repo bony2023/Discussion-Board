@@ -46,16 +46,16 @@
  			</table>
  			<?php
  				if(isset($_POST['login'])) {
-					$u=$_POST['uname'];
-					$p=$_POST['pwd'];
-					if($_POST['rem']=="yes") {
-						setcookie("user", $u, time()+86400*5, "/");
-					}
+					$u=BlockSQLInjection($_POST['uname']);
+					$p=BlockSQLInjection($_POST['pwd']);
 					$sql="SELECT * from users where uname='$u' and pwd='$p'";
 					$res=mysql_query($sql);
 					if(mysql_num_rows($res)==1) {
 						start_session();
 						$_SESSION['uname']=$u;
+						if($_POST['rem']=="yes") {
+							setcookie("user", $u, time()+86400*5, "/");
+						}
 						sleep(1);
 						header('Location: home.php');
 					}
